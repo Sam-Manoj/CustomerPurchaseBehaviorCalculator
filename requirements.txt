@@ -1,0 +1,17 @@
+# Core Django web framework
+Django>=4.0
+
+# Numerical computing for HMM implementation
+numpy>=1.20.0
+
+# Scientific computing (often used with NumPy for HMM)
+scipy>=1.7.0
+
+# Plotting and visualization (Used for the Viterbi Path graph)
+matplotlib>=3.5.0
+
+# Database driver (if using a different database like PostgreSQL)
+# For SQLite (default), no extra package is typically needed.
+
+# Recommended: For faster JSON handling in Django (often needed for API views)
+# djangorestframework>=3.13.1
